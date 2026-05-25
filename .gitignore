@@ -1,0 +1,16 @@
+# Entorno virtual
+pyfinance/
+
+# Archivos de Python compilado
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema
+.DS_Store
+
+# Cursor/VSCode
+.vscode/
+
+# Datos pesados (opcional, comentar si quieres subirlos)
+*.csv
