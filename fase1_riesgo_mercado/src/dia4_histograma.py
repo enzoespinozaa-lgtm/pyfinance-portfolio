@@ -34,7 +34,7 @@ plt.suptitle("Distribución de Retornos vs Normal Teórica", fontsize=12)
 plt.tight_layout()
 
 # Guardar figura
-ruta_fig = Path(__file__).parent.parent / "data" "return_distribution.png"
+ruta_fig = Path(__file__).parent.parent / "data" / "return_distribution.png"
 plt.savefig(ruta_fig, dpi=150)
 
 plt.show()
